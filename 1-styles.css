@@ -1,0 +1,63 @@
+/* Reset CSS styling */
+/* You can use a CSS reset library like Normalize.css */
+/* Include the Normalize.css library stylesheet by linking to it in your HTML */
+
+/* Define variables */
+/* Example variable definitions */
+:root {
+  --primary-color: #333;
+  --secondary-color: #666;
+  --button-background: #333;
+}
+
+/* Header styling */
+header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  max-width: 1000px; /* Maximum width of the content */
+  margin: 0 auto; /* Centered in the page */
+  text-align: center;
+}
+
+.container {
+  max-width: 960px; /* Adjust as needed */
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 32px;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--button-background);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: var(--secondary-color);
+  opacity: 0.9; /* Button hover/active opacity */
+}
+
+/* Include the Animate.css library stylesheet */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+/* Media query for mobile version */
+@media (max-width: 480px) {
+  header {
+    /* CSS rules for mobile version */
+    /* Adjust as needed */
+  }
+}
