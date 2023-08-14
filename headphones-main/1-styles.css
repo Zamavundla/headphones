@@ -1,0 +1,253 @@
+/* styles.css */
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header-container, .main1 {
+    background-image: url(images/headphones_hero_1.jpg);
+    color: white;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+   
+}
+
+/* Main section styles */
+.Mytitle h1 {
+    font-size: 28px;
+}
+
+.Myheaders h2 {
+    font-size: 24px;
+}
+
+/*.myButton button {
+    background-color: #FF6565;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}*/
+
+/*.myButton a {
+    color: white;
+    text-decoration: none;
+}*/
+.myButton button {
+    background-color: #FF6565;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, opacity 0.3s; /* Add transition effect */
+    opacity: 1; /* Default opacity */
+    border-radius: 20px;
+}
+
+.myButton button:hover {
+    background-color: #FF6565; /* Hover background color */
+    opacity: 0.9; /* Hover opacity */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.links-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Align the logo-container and links-container */
+.logo-container a img {
+    display: block; /* Ensures that the image is properly aligned */
+}
+
+.main1 {
+    text-align: center; /* Center the content inside main1 */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.Mytitle {
+    margin-bottom: 20px; /* Add space below the title */
+}
+
+.Myheaders {
+    display: flex; /* Display headers in a row */
+    justify-content: space-between; /* Spread headers equally */
+    align-items: center; /* Vertically align headers */
+    margin-bottom: 20px; /* Add space below headers */
+}
+
+.hSection {
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 20px;
+}
+
+.weDocontainer {
+    text-align: center; /* Center the content inside weDocontainer */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.inContainer {
+    max-width: 800px; /* Set a max width for inContainer */
+    margin: 0 auto; /* Center inContainer horizontally */
+    padding: 20px; /* Add padding for spacing */
+}
+
+/*.contofCont {
+    display: flex; /* Display elements in a row */
+    /*justify-content: space-between; /* Spread elements equally */
+   /* margin-top: 20px; /* Add space above contofCont */
+/*}*/
+.contOfCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+}
+
+/*.contweDo {
+    display: flex; /* Display items in a row */
+   /* flex-direction: column; /* Stack items vertically */
+   /* align-items: center; /* Center items horizontally */
+   /* text-align: center; /* Center text within items */
+   /* width: 5%; /* Set width for each container */
+/*}*/
+
+.ourCont {
+    text-align: center; /* Center the content inside ourCont */
+    padding: 20px; /* Add padding for spacing */
+    background-image: url(images/headphones_hero_2.jpg);
+    color: white;
+}
+
+.results {
+    text-align: center; /* Center the h2 inside results */
+}
+
+.resultsText {
+    text-align: center; /* Center the p inside resultsText */
+    margin-top: 20px; /* Add spacing above resultsText */
+}
+
+.contPent {
+    display: flex; /* Display elements in a row */
+    justify-content: space-between; /* Spread elements equally */
+    align-items: center; /* Center elements vertically */
+    margin-top: 20px; /* Add spacing above contPent */
+}
+
+
+.pent1 {
+    position: relative; /* Set the container as the positioning context */
+    display: flex; /* Display items in a column */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text within pent1 */
+}
+
+.pent1 img {
+    width: 190px; /* Set image width */
+    height: 190px; /* Set image height */
+}
+
+.pentText1 {
+    position: absolute; /* Position the text absolutely */
+    top: 60%; /* Position text vertically centered */
+    left: 40%; /* Position text horizontally centered */
+    transform: translate(-50%, -50%); /* Center the text within pent1 */
+    margin-top: 10px; /* Add spacing above pentText1 */
+}
+
+.pentText {
+    position: absolute; /* Position the text absolutely */
+    top: 50%; /* Position text vertically centered */
+    left: 50%; /* Position text horizontally centered */
+    transform: translate(-50%, -50%); /* Center the text within pent1 */
+    margin-top: 10px; /* Add spacing above pentText1 */
+}
+
+.contactus {
+    text-align: center; /* Center the content inside contactus */
+    padding: 20px; /* Add padding for spacing */
+    background-color: white;
+}
+
+.contactusTitle {
+    text-align: center; /* Center the h2 elements inside contactusTitle */
+    margin-bottom: 20px; /* Add spacing below the titles */
+}
+.footer1 {
+    text-align: center; /* Center the content inside footer1 */
+    padding: 20px; /* Add padding for spacing */
+    display: flex; /* Display content in a row */
+    justify-content: space-between; /* Space elements evenly */
+    align-items: center; /* Center elements vertically */
+    background-color: #071629;
+    color: white;
+}
+
+.footLogo {
+    width: 162px; /* Set image width */
+    height: 32px; /* Set image height */
+}
+
+.socials {
+    display: flex; /* Display social links in a row */
+    gap: 10px; /* Add spacing between social links */
+    align-items: center; /* Center elements vertically */
+}
+
+.hdfooter {
+    text-align: center; /* Center the text inside hdfooter */
+    margin-top: 20px; /* Add spacing above hdfooter */
+}
+
+
+/* Mobile-specific styles */
+@media screen and (max-width: 480px) {
+
+    .logo-container {
+        justify-content: center; /* Center logo in mobile layout */
+    }
+    .links-container {
+        justify-content: center; /* Center links in mobile layout */
+    }
+    .contofCont {
+        flex-direction: column; /* Stack elements vertically in mobile layout */
+        align-items: center; /* Center elements horizontally in mobile layout */
+    }
+    .contOfCont {
+        flex-direction: column; /* Stack containers vertically in mobile layout */
+    }
+    .contPent {
+        flex-direction: column; /* Stack elements vertically in mobile layout */
+        align-items: center;
+    }
+    .Mytitle h1 {
+        font-size: 24px;
+    }
+
+    .Myheaders h2 {
+        font-size: 20px;
+    }
+
+}
